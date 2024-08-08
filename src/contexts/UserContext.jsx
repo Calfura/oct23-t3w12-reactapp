@@ -34,7 +34,7 @@ export default function UserProvider({children}){
             headers: {
                 'Content-Type': 'application/json'
             }
-        }) ;
+        });
 
         signUpResult = await signUpResult.json();
     
