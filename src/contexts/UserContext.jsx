@@ -64,6 +64,4 @@ export default function UserProvider({children}){
             {children}
         </UserDispatchContext.Provider>
     </UserDataContext.Provider>
-
-
 }
